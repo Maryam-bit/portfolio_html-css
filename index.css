@@ -1,0 +1,840 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oswald:wght@700&family=Source+Sans+Pro:wght@700&family=Yeon+Sung&display=swap');
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+
+
+.about .heading,
+.skills .heading,
+.services .heading,
+.portfolio .heading,
+.contact .heading,
+.achievements .heading{
+  text-align: center;
+}
+
+
+
+
+.about .heading h1,
+.skills .heading h1,
+.services .heading h1,
+.portfolio .heading h1,
+.contact .heading h1,
+.achievements .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+
+
+
+.about .heading img,
+.skills .heading img,
+.services .heading img,
+.portfolio .heading img,
+.contact .heading img,
+.achievements .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+
+
+.home .HomeGreetingText .text button, .about .aboutText button, .portfolio button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #0282c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                  Navbar                                   */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+
+.topnav {
+    background-color:#f7f7f7;
+    overflow: hidden;
+    padding:8px;
+    box-shadow: 0 1px 6px lightgrey;
+  }
+
+  
+  .logo{
+    width:150px;
+    margin-left: 10px;
+}
+
+
+  .topnav .menus {
+      display: inline;
+      float: right;
+      text-align: center;
+      margin-top: 16px;
+  }
+
+
+  .topnav a {
+    display: inline;
+    color:grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                home page                                  */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+.home{
+  width: 100%;
+  display: block;
+}
+
+
+/* greeting */
+
+.home .HomeGreetingText{  
+  display: inline-block;
+  width: 50%;
+  flex:0 0 50%;
+}
+
+
+.home .HomeGreetingText .text{
+  margin-left: 15%;
+  position: relative;
+  top: -30px;
+}
+
+
+.home .HomeGreetingText p{
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline;
+  color: #012c42;
+  color: #064566;
+  font-family: 'Yeon Sung', cursive;
+}
+
+
+.home .HomeGreetingText .hand{
+  width: 30px;
+  position: relative;
+  top: 11px;
+}
+
+
+.home .HomeGreetingText .text h2{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #012c42;
+  color: #064566;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.home .homeImage{
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  flex:0 0 50%;
+}
+
+
+.home .homeImage .image{
+  width: 500px;
+  position: relative;
+  top: 50px;
+  margin-right: 10%;
+}
+
+
+
+
+
+
+  
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                   about                                   */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+
+.about{
+  width: 100%;
+  display: block;
+}
+
+
+.about .heading{
+  text-align: center;
+}
+
+
+.about .profileImage{
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+  flex:0 0 50%;
+}
+
+
+.about .profileImage .image {
+ width: 216px;
+ position: relative;
+ left: 7;
+ top: 1px;
+ border-radius: 9px;
+}
+
+
+.about .aboutText{
+  width: 60%;
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+.about .aboutText .aboutme {
+  font-size: 14.5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  font-family: serif;
+  margin-top: 15px;
+  line-height: 2;
+}
+
+
+.about .aboutText .cv {
+  width: 100%;
+  display: block;
+}
+
+
+.about .aboutText .cv .part1, .part2{
+  width: 40%;
+  display: inline-block;
+  font-size: 14.5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  font-family: serif;
+  margin-top: 15px;
+  line-height: 2;
+}
+
+
+.about .aboutText .cv .part1 .title, .part2 .title{
+ color: black;
+ font-size: 15.5;
+ font-weight: 600;
+}
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                 services                                 */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+
+.services .cards{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+ padding: 20px;
+align-items: center;
+text-align: center;
+}
+
+
+.services .cards .card1, .card2, .card3{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  box-shadow: 3px 3px 15px lightgrey;
+  margin:14px;
+  padding: 30px;
+  transition: 1s;
+}
+
+
+.services .cards .card1:hover{
+  transform: rotate(3deg);
+}
+
+
+.services .cards .card2:hover{
+  transform: rotate(3deg);
+}
+
+
+.services .cards .card3:hover{
+  transform: rotate(3deg);
+}
+
+
+.services .cards .card1 img, .card2 img, .card3 img{
+  width: 80px;
+}
+
+
+.services .cards .card1 i, .card2 i, .card3 i{
+  position: relative;
+  right: 53px;
+  top: -32px;
+  color: white;
+  font-size: 19px;
+}
+
+
+.services .cards .card1 h3, .card2 h3, .card3 h3{
+  color: grey;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                 skills                                 */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+
+
+.skills .progressBars .row{
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding: 20px;
+align-items: center;
+text-align: center;
+}
+
+
+.skills .progressBars .row .bar{
+  width: 30%;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
+}
+
+
+.skills .progressBars .row .meter{
+  width:100%;
+}
+
+
+.skills .meter { 
+	height: 13px;  /* Can be anything */
+	position: relative;
+	background: #ededed;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 1px;
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+
+.skills .meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #0282c7;
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+
+.skills .row .bar .text{
+  margin-left: 7px;
+  margin-top: 20px !important;
+  color: grey;
+  font-size: 14px; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  
+}
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                Portfolio                                  */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+.portfolio .cards{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+ padding: 20px;
+align-items: center;
+text-align: center;
+}
+
+
+.portfolio .cards .card{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  box-shadow: 3px 3px 15px lightgrey;
+  margin:17px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 1s;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  transition: 3s;
+}
+
+
+.portfolio .cards .card:hover{
+  transform: scale(1.1);
+}
+
+
+.portfolio .cards .card img{
+  width: 100%;
+}
+
+
+.portfolio .cards .card h3{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  color: #212121;
+}
+
+
+.portfolio .cards .card i{
+  background-color: #0282c7;
+  color: white;
+  padding: 10px;
+  border-radius: 90px;
+}
+
+
+.portfolio .cards .card .fa-github{
+  background-color: #0282c7;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                               Achievements                                */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+.achievements .cards{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+ padding: 20px;
+align-items: center;
+text-align: center;
+}
+
+
+.achievements .cards .card{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  box-shadow: 3px 3px 15px lightgrey;
+  margin:17px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 1s;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  transition: 3s;
+}
+
+
+.achievements .cards .card:hover{
+  transform: scale(1.1);
+}
+
+
+.achievements .cards .card img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                contact                                 */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+
+.contact .profileImage {
+  text-align: center;
+}
+.contact .profileImage img{
+  width: 170px;
+  border-radius: 90px;
+}
+.contact .cards{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+ padding: 20px;
+align-items: center;
+text-align: center;
+}
+
+
+.contact .cards .card{
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  box-shadow: 3px 3px 15px lightgrey;
+  margin:17px;
+padding:20px;
+  transition: 1s;
+  border-radius: 5px;
+  transition: 3s;
+}
+
+
+.contact .cards .card:hover{
+  transform: scale(1.1);
+}
+
+
+.contact .cards .card h5{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  color: #212121;
+  font-size:16px;
+  margin-top: -1px;
+}
+
+
+.contact .cards .card p{
+  font-size:13px;
+  color: grey;
+  margin:0;
+  padding: 0;
+  margin-top: -19px;
+
+}
+
+
+.contact .cards .card .icon{
+  background-color: #0282c7;
+  color: white;
+  border-radius: 90px;
+  padding: 30px;
+  font-size:30px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+
+.contact .cards .card .fa-github, .fa-facebook{
+  background-color: #0282c7;
+  color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 90px;
+  padding: 8px;
+  position: relative;
+  top: -10px;
+}
+
+
+
+
+
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                  footer                                   */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+
+
+.footer {
+  margin-top: 25px;
+  box-shadow: 2px 2px 7px grey;
+  padding: 15px;
+}
+
+.footer .footerChild{
+  text-align: center;
+}
+
+.footer .title {
+  font-weight: 600;
+}
+
+.footer .word {
+  color: #0282c7;
+  font-weight: 600;
+}
+
+
+
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                               Responsive                                  */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+
+@media screen and (max-width: 900px) {
+
+    .topnav a {
+      display: none;
+    }
+
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+  }
+
+
+
+
+  @media(max-width: 900px) {
+
+    .topnav.responsive {
+      position: relative;
+    }
+
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .topnav.responsive a , .topnav.topnav.responsive .menus{
+      float: none;
+      display: block;
+      text-align: left;
+     }
+
+  }
+
+
+
+
+  @media(max-width:1200px){
+    .home .homeImage .image{
+      width: 400px;
+      top: 30px;
+    }
+
+    .home .HomeGreetingText .text{
+      margin-top: 200px;
+    }
+  }
+
+
+
+
+  @media(max-width:1160px){
+
+    .about{
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .about .profileImage{
+      width: 70%;
+    }
+
+    .about .aboutText{
+      width:90%;
+      display: block;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  }
+
+
+
+
+  @media(max-width:1120px){
+
+    .home .homeImage .image{
+      width: 350px;
+    }
+    .services .cards{
+      width:90%
+    }
+
+  }
+
+  @media(max-width:1065px){
+
+    .portfolio .cards .card{
+      width:17%;
+    }
+    .achievements .cards .card{
+      width:17%;
+    }
+    .contact .cards .card{
+      width: 17%;
+    }
+  }
+
+  @media(max-width:992px){
+
+    .home .homeImage .image{
+      width: 350px;
+    }
+    .services .cards{
+      width:90%;
+    }
+    .services .cards .card1, .card2, .card3{
+      width: 20%;
+    }
+  }
+
+ 
+
+
+  @media(max-width:723px){
+    .portfolio .cards .card{
+      width: 80%;
+    }
+    .achievements .cards .card{
+      width:80%;
+    }
+  }
+
+
+
+  @media(max-width:700px){
+    .services .cards{
+      width:80%;
+    }
+    .services .cards .card1, .card2, .card3{
+      width: 80%;
+    }
+
+    .skills .progressBars .row .bar{
+      width: 80%;
+    }
+    .contact .cards .card{
+      width: 80%;
+    }
+    .skills .progressBars .row{
+      margin:0;
+      padding:0;
+    }
+  }
+
+
+
+
+
+  @media(max-width:770px){
+
+    .home .homeImage .image{
+     display: none;
+    }
+    
+    .home .HomeGreetingText{  
+      display: inline-block;
+      width: 100%;
+    }
+
+    .home .HomeGreetingText .text{
+      margin-left: 12%;
+    }
+
+    .about .aboutText .cv .part1 , .part2{
+      width: 100%;
+      display: block;
+    }
+
+  }
