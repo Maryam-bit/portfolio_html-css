@@ -1,0 +1,795 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oswald:wght@700&family=Source+Sans+Pro:wght@700&family=Yeon+Sung&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                  Navbar                                   */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.topnav {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  padding: 8px;
+  -webkit-box-shadow: 0 1px 6px lightgrey;
+          box-shadow: 0 1px 6px lightgrey;
+}
+
+.topnav .logo {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.topnav .menus {
+  display: inline;
+  float: right;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.topnav a {
+  display: inline;
+  color: grey;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                home page                                  */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.home {
+  width: 100%;
+  display: block;
+}
+
+.home .HomeGreetingText {
+  display: inline-block;
+  width: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.home .HomeGreetingText .text {
+  margin-left: 15%;
+  position: relative;
+  top: -30px;
+}
+
+.home .HomeGreetingText .text p {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline;
+  color: #064566;
+  font-family: 'Yeon Sung', cursive;
+}
+
+.home .HomeGreetingText .text .hand {
+  width: 30px;
+  position: relative;
+  top: 11px;
+}
+
+.home .HomeGreetingText .text h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: #064566;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home .HomeGreetingText .text .btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #0282c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.home .homeImage {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.home .homeImage .image {
+  width: 500px;
+  position: relative;
+  top: 50px;
+  margin-right: 10%;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                   about                                   */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.about {
+  width: 100%;
+  display: block;
+}
+
+.about .heading {
+  text-align: center;
+}
+
+.about .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.about .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+.about .profileImage {
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.about .profileImage .image {
+  width: 216px;
+  position: relative;
+  left: 7;
+  top: 1px;
+  border-radius: 9px;
+}
+
+.about .aboutText {
+  width: 60%;
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.about .aboutText .aboutme {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.about .aboutText .cv {
+  width: 100%;
+  display: block;
+}
+
+.about .aboutText .cv .part1, .about .aboutText .cv .part2 {
+  width: 40%;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.about .aboutText .cv .part1 .title, .about .aboutText .cv .part2 .title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: black !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.about .aboutText button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #0282c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                 services                                 */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.services .heading {
+  text-align: center;
+}
+
+.services .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.services .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+.services .cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.services .cards .card {
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 15px lightgrey;
+          box-shadow: 3px 3px 15px lightgrey;
+  margin: 16px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  padding: 30px;
+}
+
+.services .cards .card:hover {
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.services .cards .card img {
+  width: 80px;
+}
+
+.services .cards .card i {
+  position: relative;
+  right: 53px;
+  top: -32px;
+  color: white;
+  font-size: 19px;
+}
+
+.services .cards .card h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 17px;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                 skills                                 */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.skills .heading {
+  text-align: center;
+}
+
+.skills .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.skills .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+.skills .progressBars .row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.skills .progressBars .row .bar {
+  width: 30%;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
+}
+
+.skills .progressBars .row .bar .text {
+  margin-left: 7px;
+  margin-top: 24px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.skills .progressBars .row .bar .meter {
+  width: 100%;
+  height: 13px;
+  position: relative;
+  background: #ededed;
+  border-radius: 25px;
+  padding: 1px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+          box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.skills .progressBars .row .bar .meter span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #0282c7;
+  -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                Portfolio                                  */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.portfolio .heading {
+  text-align: center;
+}
+
+.portfolio .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.portfolio .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+.portfolio .cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.portfolio .cards .card {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 15px lightgrey;
+          box-shadow: 3px 3px 15px lightgrey;
+  margin: 16px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.portfolio .cards .card .cardImg img {
+  width: 100%;
+}
+
+.portfolio .cards .card .cardText h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212121;
+}
+
+.portfolio .cards .card .cardText i {
+  background-color: #0282c7;
+  color: white;
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portfolio .cards .card .cardText .fa-github {
+  background-color: #0282c7;
+  color: white;
+  border-radius: 90px;
+  padding: 10px;
+  font-size: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.portfolio .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.portfolio .cards button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #0282c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                               Achievements                                */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.achievements .heading {
+  text-align: center;
+}
+
+.achievements .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.achievements .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+.achievements .cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.achievements .cards .card {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 15px lightgrey;
+          box-shadow: 3px 3px 15px lightgrey;
+  margin: 16px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.achievements .cards .card .cardImg img {
+  width: 100%;
+}
+
+.achievements .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                contact                                 */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.contact .heading {
+  text-align: center;
+}
+
+.contact .heading h1 {
+  color: #064566;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+}
+
+.contact .heading img {
+  width: 60px;
+  position: relative;
+  top: -36px;
+}
+
+.contact .profileImage {
+  text-align: center;
+}
+
+.contact .profileImage img {
+  width: 170px;
+  border-radius: 90px;
+}
+
+.contact .cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contact .cards .card {
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 15px lightgrey;
+          box-shadow: 3px 3px 15px lightgrey;
+  margin: 16px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.contact .cards .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contact .cards .card h5 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212121;
+  font-size: 16px;
+  margin-top: -1px;
+}
+
+.contact .cards .card p {
+  font-size: 13px;
+  color: grey;
+  margin: 0;
+  padding: 0;
+  margin-top: -19px;
+}
+
+.contact .cards .card .icon {
+  background-color: #0282c7;
+  color: white;
+  border-radius: 90px;
+  padding: 30px;
+  font-size: 30px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.contact .cards .card .fa-github, .contact .cards .card .fa-facebook {
+  background-color: #0282c7;
+  color: white;
+  border-radius: 90px;
+  padding: 8px;
+  font-size: 16px;
+  padding-left: 13px;
+  padding-right: 13px;
+  position: relative;
+  top: -10px;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                                  footer                                   */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+.footer {
+  margin-top: 25px;
+  -webkit-box-shadow: 2px 2px 7px grey;
+          box-shadow: 2px 2px 7px grey;
+  padding: 15px;
+}
+
+.footer .footerChild {
+  text-align: center;
+}
+
+.footer .footerChild .title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: grey !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.footer .footerChild .word {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  color: #0282c7 !important;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 600;
+}
+
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+/*                               Responsive                                  */
+/* // ======================°°°°°°°°°°°°°°°°°°°°°°°========================= */
+@media screen and (max-width: 900px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a, .topnav.topnav.responsive .menus {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home .homeImage .image {
+    width: 400px;
+    top: 30px;
+  }
+  .home .HomeGreetingText .text {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .about {
+    display: inline-block;
+    text-align: center;
+  }
+  .about .profileImage {
+    width: 70%;
+  }
+  .about .aboutText {
+    width: 90%;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .home .homeImage .image {
+    width: 350px;
+  }
+  .services .cards {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1065px) {
+  .portfolio .cards .card {
+    width: 17%;
+  }
+  .achievements .cards .card {
+    width: 17%;
+  }
+  .contact .cards .card {
+    width: 17%;
+  }
+}
+
+@media (max-width: 992px) {
+  .home .homeImage .image {
+    width: 350px;
+  }
+  .services .cards {
+    width: 90%;
+  }
+  .services .cards .card {
+    width: 20%;
+  }
+}
+
+@media (max-width: 723px) {
+  .portfolio .cards .card {
+    width: 80%;
+  }
+  .achievements .cards .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .services .cards {
+    width: 80%;
+  }
+  .services .cards .card {
+    width: 80%;
+  }
+  .skills .progressBars .row .bar {
+    width: 80%;
+  }
+  .contact .cards .card {
+    width: 80%;
+  }
+  .skills .progressBars .row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .home .homeImage .image {
+    display: none;
+  }
+  .home .HomeGreetingText {
+    display: inline-block;
+    width: 100%;
+  }
+  .home .HomeGreetingText .text {
+    margin-left: 12%;
+  }
+  .about .aboutText .cv .part1, .part2 {
+    width: 100%;
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
